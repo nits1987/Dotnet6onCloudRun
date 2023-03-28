@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NxnoNDENBI12UeFBlrYVo/bAPjQy7perKHNqn8IHPRQr1f6zHgIjj4etFIh20wqx2KeQEGVnDlIoq0U5zMjisg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nitindhir\\source\\repos\\WebAPI-Demo\\WebAPI-Demo\\WebAPI-Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nitindhir\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
