@@ -1,0 +1,15 @@
+Build Command - 
+
+gcloud builds submit --tag gcr.io/{project-id}/demoapinet6:latest
+
+
+
+Deploy Command - 
+
+gcloud run deploy demoapinet6 \
+--image=gcr.io/{project-id}/demoapinet6:latest \
+--port=8080 \
+--set-env-vars='ASPNETCORE_URLS=http://+:8080' \
+--region=us-central1 \
+--project=project-name \
+ && gcloud run services update-traffic demoapinet6 --to-latest
